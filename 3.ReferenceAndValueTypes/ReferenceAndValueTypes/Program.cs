@@ -1,16 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReferenceAndValueTypes
 {
-  class Program
+  public class Program
   {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
+      var person = new Person();
+      person.Name = "Anna";
 
+      ChangeName(person, "Elizabeth");
+
+      Console.WriteLine($"Person name is {person.Name}");
+
+      //also int is structure System.Int32
     }
+
+    public static void ChangeName(Person somebody, string newName)
+    {
+      somebody.Name = newName;
+    }
+  }
+  
+  public class Person
+  //public struct Person
+  {
+    public string Name { get; set; }
   }
 }
