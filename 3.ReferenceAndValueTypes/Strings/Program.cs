@@ -17,7 +17,7 @@ namespace Strings
 
       string s1 = "Hello";
       string s2 = "Hello";
-      Console.WriteLine($"i1 == i2: {i1 == i2}");
+      Console.WriteLine($"s1 == s2: {s1 == s2}");
 
       o1 = (object)s1;
       o2 = (object)s2;
