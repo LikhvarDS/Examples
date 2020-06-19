@@ -14,6 +14,7 @@ namespace ReferenceAndValueTypes
       Console.WriteLine($"Person name is {person.Name}");
 
       //also int is structure System.Int32
+      int number = 1;
     }
 
     public static void ChangeName(Person somebody, string newName)
