@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{751571BA-F85A-4136-B93B-AE27872C73A1}</ProjectGuid>
+    <ProjectGuid>{54BE4E8C-9ECB-4D7B-9686-26F2BD1DDCF8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Strings</RootNamespace>
-    <AssemblyName>Strings</AssemblyName>
+    <RootNamespace>Delegates</RootNamespace>
+    <AssemblyName>Delegates</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StringCreator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

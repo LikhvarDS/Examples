@@ -40,6 +40,8 @@
 
     protected int PropertyForChildren { get; }
 
+    private protected int PropertyForChildrenInAssembly { get; set; }
+
     internal int PropertyForAssembly { get; }
 
     protected internal int PropertyForChildrenAndAssembly { get; set; }
