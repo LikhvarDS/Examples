@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyExample", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldClassLibrary", "HelloWorldClassLibrary\HelloWorldClassLibrary.csproj", "{64914193-112C-4940-8725-0C3E8E1DDDBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration", "Configuration\Configuration.csproj", "{E88E8359-009E-43C3-AEFF-DE5A557478E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{64914193-112C-4940-8725-0C3E8E1DDDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64914193-112C-4940-8725-0C3E8E1DDDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64914193-112C-4940-8725-0C3E8E1DDDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88E8359-009E-43C3-AEFF-DE5A557478E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88E8359-009E-43C3-AEFF-DE5A557478E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88E8359-009E-43C3-AEFF-DE5A557478E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88E8359-009E-43C3-AEFF-DE5A557478E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
