@@ -19,7 +19,6 @@ namespace AssemblyExample
       var currentDirectory = Directory.GetCurrentDirectory();
       var assemblyName = "HelloWorldClassLibrary.dll";
       var path = Path.Combine(currentDirectory, assemblyName);
-
       var helloAssembly = Assembly.LoadFrom(path);
 
       Console.WriteLine("Загруженные сборки:");

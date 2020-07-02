@@ -14,6 +14,7 @@ namespace Configuration
       Console.ReadKey();
 
       var settingsSection = (MySection)ConfigurationManager.GetSection("MySettings");
+      Console.ReadKey();
     }
   }
 }

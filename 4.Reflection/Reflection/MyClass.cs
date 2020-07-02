@@ -1,4 +1,6 @@
-﻿namespace Reflection
+﻿using System;
+
+namespace Reflection
 {
   public class MyClass
   {

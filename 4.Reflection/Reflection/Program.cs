@@ -13,7 +13,7 @@ namespace Reflection
       Console.WriteLine($"{nameof(type.Name)}: {type.Name}");
       Console.WriteLine($"{nameof(type.FullName)}: {type.FullName}");
       Console.WriteLine($"{nameof(type.Assembly)}: {type.Assembly.FullName}");
-      Console.WriteLine($"{nameof(type.Namespace)}: {type.Namespace}");
+      Console.WriteLine($"{nameof(type.Namespace)}: {type.Namespace}");                                      
       Console.WriteLine($"{nameof(type.GUID)}: {type.GUID}");
       Console.WriteLine($"Constructors count: {type.GetConstructors().Length}");
       Console.WriteLine();

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using Reflection;
 
 namespace Reflection2
@@ -8,7 +9,7 @@ namespace Reflection2
     public static void Main()
     {
       var myClass = new MyClass();
-      var type = myClass.GetType();
+      var type = typeof(MyClass);
 
       var fields = type.GetFields(/*BindingFlags.NonPublic | BindingFlags.Instance*/);
       foreach (var field in fields)
