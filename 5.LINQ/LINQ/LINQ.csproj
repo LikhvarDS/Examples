@@ -51,11 +51,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Delegates\Delegates.csproj">
-      <Project>{54be4e8c-9ecb-4d7b-9686-26f2bd1ddcf8}</Project>
-      <Name>Delegates</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

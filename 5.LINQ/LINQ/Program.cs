@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace LINQ
@@ -16,6 +17,7 @@ namespace LINQ
 
 
       result.ConsoleWrite();
+      Console.ReadKey();
     }
 
     private static IEnumerable<int> Example1(int[] array)
