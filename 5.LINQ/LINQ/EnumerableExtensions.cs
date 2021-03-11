@@ -4,11 +4,11 @@ using System.Text;
 
 namespace LINQ
 {
-  public static class ExtensionMethods
+  public static class EnumerableExtensions
   {
     public static void ConsoleWrite<T>(this IEnumerable<T> enumerable)
     {
-      StringBuilder sb = new StringBuilder();
+      var sb = new StringBuilder();
 
       foreach (var e in enumerable)
       {
