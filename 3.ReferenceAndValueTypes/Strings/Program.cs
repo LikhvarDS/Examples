@@ -11,7 +11,7 @@ namespace Strings
       Console.WriteLine($"i1 == i2: {i1 == i2}");
 
       object o1 = (object)i1;
-      object o2 = (object)i2;
+      object o2 = (object)i1;
       Console.WriteLine($"o1 == o2: {o1 == o2}");
 
 

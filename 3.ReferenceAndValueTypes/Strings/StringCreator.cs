@@ -2,6 +2,9 @@
 
 namespace Strings
 {
+  /// <summary>
+  /// Создатель строк.
+  /// </summary>
   public class StringCreator
   {
     public void BuildString()

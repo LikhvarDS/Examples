@@ -7,7 +7,7 @@ namespace GarbageCollector
     static void Main(string[] args)
     {
       // Тут не на что смотреть.
-      // Лучше посмотреть презенташку про поколения.
+      // Поговорим про поколения.
     }
   }
 }
