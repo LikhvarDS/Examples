@@ -6,7 +6,12 @@ namespace HelloWorld
   {
     public static void Main(string[] args)
     {
-      Console.WriteLine("Hello, world!");
+      // Сборка для просмотра в ILdasm.
+
+      int a = 2 + 2;
+      int b = a + 4;
+      string c = "Hello, world!";
+      Console.WriteLine(c);
     }
   }
 }

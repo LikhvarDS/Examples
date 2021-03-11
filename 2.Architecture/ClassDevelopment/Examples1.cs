@@ -1,8 +1,43 @@
-﻿namespace ClassDevelopment
+﻿using System;
+
+namespace ClassDevelopment2
 {
+
+  public interface IMoveable
+  {
+    void Move();
+  }
+
+  public abstract class Transport : IMoveable
+  {
+    public virtual void Move()
+    {
+      Console.WriteLine("Transport Move");
+    }
+  }
+
+  public class Car : Transport
+  {
+    private readonly string color = "#000";
+
+    public Car()
+    {
+      this.color = "#ffffff";
+    }
+  }
+
+  public class Bike : Transport
+  {
+    public override void Move()
+    {
+      Console.WriteLine("Bike Move");
+    }
+  }
+
+
   public class Examples1
   {
-    public const int Constant = 1;
+    public const int MaxValue = 42;
 
     private int number;
 
@@ -32,7 +67,6 @@
     }
 
     public string Text2 { get; set; }
-
 
 
 
