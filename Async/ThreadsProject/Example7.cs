@@ -23,7 +23,7 @@ namespace ThreadsProject
     {
       for (int i = 0; i < 1000000; i++)
       {
-        Thread.Sleep(10);
+        Thread.Sleep(100);
 
         if (token.IsCancellationRequested)
         {

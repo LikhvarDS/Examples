@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ThreadsProject
@@ -16,17 +17,19 @@ namespace ThreadsProject
       var task1 = Task.Run(() => AddIntsToBag1(args1));
       var task2 = AddIntsToBag2(args2);
 
+      
       Task.WaitAll(task1, task2);
       foreach (var i in result)
         Console.WriteLine(i);
 
-      /*
-      Task.WhenAll(task1, task2).ContinueWith(async (obj) =>
+      /*Task.WhenAll(task1, task2).ContinueWith(async (obj) =>
       {
         foreach (var i in result)
           Console.WriteLine(i);
-      });
-      */
+      });*/
+
+
+      Console.ReadKey();
     }
 
     public static void AddIntsToBag1(object obj)
@@ -47,6 +50,11 @@ namespace ThreadsProject
     public static async Task<int> GetSomething()
     {
       return 42;
+    }
+
+    public static async Task DoSomethind()
+    {
+
     }
 
     public static async Task WriteSomething()

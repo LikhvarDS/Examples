@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Threading;
 
 namespace ThreadsProject
@@ -16,7 +15,7 @@ namespace ThreadsProject
         var args = (Example3Args)obj;
         for (int i = args.Start; i < args.Start + args.NumbersCount; i++)
         {
-            args.Result.Add(i);
+          args.Result.Add(i);
         }
       };
 
