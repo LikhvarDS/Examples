@@ -57,7 +57,7 @@ namespace UnitTestProject
       [Benchmark(Description = "Search")]
       public void SearchBenchmark()
       {
-        this.filter.Search(data, d => d % 2 == 0);
+        this.filter.Search(this.data, d => d % 2 == 0);
       }
     }
 
